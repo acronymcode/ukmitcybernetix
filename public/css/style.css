@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+
+*,
+a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff5eb;
+}
+section {
+    min-height: 30vh;
+    margin-top: 5em;
+    /* background-color: #ff7f2a; */
+}
+.card {
+    border: none;
+    border-radius: 1em;
+}
+
+/* Navbar */
+nav {
+    background-color: #fff5eb;
+    /* height: 15vh; */
+}
+nav .container .collapse ul li .nav-link:hover {
+    color: #ff7f2a !important;
+}
+
+nav .container .collapse .btn-signin {
+    padding: 10px 45px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+nav .container .collapse .btn-signin:hover {
+    opacity: 0.8;
+}
+
+nav ul li a.active {
+    color: #ff7f2a !important;
+}
+.dropdown-menu-light {
+    border: none;
+    border-radius: 1em;
+}
+
+.dropdown-menu-light li a:hover {
+    background-color: white;
+    color: #ff7f2a;
+}
+
+/* Banner */
+.kata {
+    margin-top: 4em;
+}
+.upi {
+    letter-spacing: 0.25em;
+}
+
+.btn-banner-wrapper {
+    margin-top: 7em;
+    /* background-color: #ff7f2a; */
+}
+
+button.kenali {
+    padding: 10px 45px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: #ff7f2a;
+    border: #ff7f2a;
+    color: #ffffff;
+}
+button.gabung {
+    padding: 10px 55px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn-banner:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+/* WHY ? DEVISI */
+.card-devisi {
+    border-radius: 1em;
+}
+
+/* WHO US */
+
+.struktural .struktural-card .profil {
+    width: 13em;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.struktural .struktural-card .profil:hover {
+    width: 14em;
+    opacity: 1;
+    margin-top: -1em;
+    cursor: pointer;
+}
+
+.struktural .struktural-card .card a:hover {
+    opacity: 0.8;
+}
+
+.selengkapnya {
+    width: 15%;
+    padding: 10px 5px;
+    border-radius: 30px;
+    background-color: #ff7f2a;
+    transition: 0.5s;
+    border: none;
+    color: white;
+    margin: 0 auto;
+}
+.selengkapnya:hover {
+    opacity: 0.8;
+}
+
+/* BEST MOMENT */
+.best-moment .row .card-moment {
+    min-height: 50vh;
+    border: none;
+    border-radius: 1em;
+}
+
+/* Best Moment */
+
+/* Best Stories */
+.best-stories .card {
+    min-height: 25em;
+}
+
+.footer {
+    margin-top: 12em;
+}
+
+/* Back TO top */
+#back-to-top {
+    position: fixed;
+    bottom: 3em;
+    right: 2em;
+    width: 3.5em;
+    /* background-color: #fff; */
+    /* color: #313943; */
+    /* border: none; */
+    border-radius: 5px;
+    /* padding: 1em; */
+    /* text-transform: uppercase; */
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    /* text-decoration: none; */
+    opacity: 0;
+}
+
+#back-to-top:hover {
+    background-color: #fff;
+}
+
+#back-to-top.visible {
+    opacity: 1;
+}
+
+/* ======================================== */
+/* PAGE STRUKTURAL */
+.struktural-dokumentasi {
+    margin-top: 5em;
+}
+
+.struktural-dokumentasi .card {
+    border-radius: 1em 3em;
+    min-height: 55vh;
+}
+
+/* AKHIR PAGE STRUKTURAL */
+/* ========================================= */
+
+/* ========================================== */
+/* Page BLog */
+.card-blog {
+    background-image: linear-gradient(
+            rgba(255, 111, 0, 0.5),
+            rgba(124, 114, 114, 0.5)
+        ),
+        url("/asset/img/articel/1.jpg");
+    background-size: cover;
+}
+
+.blog .card-footer {
+    background-color: #ff7f2a;
+}
+
+.blog .card-footer:hover {
+    opacity: 0.9;
+}
+.blog .card-footer small {
+    color: #ffffff;
+}
+
+/* Akhir Page Blog */
+/* ========================================== */
+
+/* Page Recruitment */
+.link {
+    min-height: 60vh;
+}
+.pendaftaran {
+    background-color: #ff7f2a;
+}
+
+.group {
+    background-color: #b1b1b1;
+}
+
+@media (min-width: 1400px) {
+    section {
+        min-height: 0vh;
+    }
+    .banner {
+        margin-top: 13em;
+    }
+
+    section {
+        margin-top: 15em;
+    }
+}
+/* Untuk Handphone */
+@media (max-width: 768px) {
+    .banner {
+        margin-top: -4em;
+    }
+
+    .upi {
+        letter-spacing: 0.15em;
+    }
+
+    .btn-banner-wrapper {
+        margin-top: 0;
+    }
+
+    .img-banner img {
+        width: 22em;
+    }
+
+    /* WHO US */
+    section.struktural {
+        margin-top: 7em;
+    }
+    .selengkapnya {
+        width: 60%;
+    }
+
+    /* Untuk tablet */
+}
