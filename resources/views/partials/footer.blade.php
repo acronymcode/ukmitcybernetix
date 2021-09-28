@@ -23,7 +23,7 @@
           </p>
           <p class="fw-bold">Personalia <br /></p>
           <p>
-            DPOb <br />
+            DPOB <br />
             Struktural <br />
             Anggota Aktifb <br />
             Alumni Luar Biasab
