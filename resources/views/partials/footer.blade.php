@@ -47,7 +47,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <a href="#" id="back-to-top"><img class="img-fluid" src="asset/img/top.svg" alt="" /></a>
+      </div>
+      {{-- <a href="#" id="back-to-top"><img class="img-fluid" src="asset/img/top.svg" alt="" /></a> --}}
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="img-fluid" width="60" src="asset/img/top.svg" alt="" /></button>
   </footer>
-</section>
+</section>  
