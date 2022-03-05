@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-dark">
             <li class="nav-item mx-4">
-              <a class="nav-link text-dark {{ ($title == "Blog") ? 'active' : '' }}" aria-current="page" href="/blog">Blog</a>
+              <a class="nav-link text-dark {{ ($title == "Posts") ? 'active' : '' }}" aria-current="page" href="/posts">Blog</a>
             </li>
             <li class="nav-item dropdown mx-4">
               <a class="nav-link dropdown-toggle text-dark {{ ($title == "Profile") ? 'active' : '' }}" href="/profile" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

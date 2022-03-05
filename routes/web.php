@@ -19,9 +19,9 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/blog', function () {
-    return view('blog',[
-        "title" => "Blog"
+Route::get('/posts', function () {
+    return view('posts',[
+        "title" => "Posts"
     ]);
 });
 
