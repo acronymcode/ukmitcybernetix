@@ -2,6 +2,6 @@
 
 Website UKM IT Cybernetix
 
-Contributor:
+Contributors:
 1. [Nanda Hady Mulya](https://github.com/in/nandahadymulya)
 2. [Arfan Dwi Sukmajaya](https://github.com/in/ArfanDwiSukmajaya)
