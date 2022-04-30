@@ -1,9 +1,16 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/laravel,macos,linux,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=laravel,macos,linux,windows
+# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,laravel,composer
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,laravel,composer
+
+### Composer ###
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
 
 ### Laravel ###
-/vendor/
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -101,4 +108,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/laravel,macos,linux,windows
+# End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,laravel,composer
