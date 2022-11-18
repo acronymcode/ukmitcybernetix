@@ -17,7 +17,7 @@
                 Profile
               </a>
               <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                <li><a class="dropdown-item" href="/sejarah">Sejarah</a></li>
                 <li><a class="dropdown-item" href="/struktural">Struktural</a></li>
                 <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
               </ul>

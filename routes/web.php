@@ -44,5 +44,14 @@ Route::get('/activity', function () {
     ]);
 });
 
+Route::get('/sejarah', function(){
+    return view('sejarah',[
+        "title" => "Sejarah"
+    ]);
+});
 
-
+Route::get('/recruitment/details', function(){
+    return view('recruitment-details', [
+        "title" => "Details"
+    ]);
+});

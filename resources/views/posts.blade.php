@@ -6,8 +6,8 @@
     <div class="row justify-content-center">
       <div class="col-sm-10">
         <div class="card shadow card-blog">
-          <div class="card-body">
-            <a href="#" class="p-2 text-light">Profile</a>
+          <div class="card-body ">
+            <a href="#" class="text-profile p-2 text-light">Profile</a>
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@
   </section>
 
   <!-- WHO -->
-  <section class="blog">
+  <section class="blog posts">
     <h3 class="text-center fw-bold mb-5">New Articel</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">

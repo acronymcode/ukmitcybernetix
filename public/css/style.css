@@ -193,7 +193,30 @@ button.gabung {
 .blog .card-footer small {
     color: #ffffff;
 }
+.profile {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.profile iframe {
+    border-radius: 1em 2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
+.text-profile {
+    position: relative;
+}
+
+.posts {
+    margin-top: 5rem;
+}
 /* Akhir Page Blog */
 /* ========================================== */
 
@@ -203,6 +226,18 @@ button.gabung {
 }
 .pendaftaran {
     background-color: #ff7f2a;
+    border: 0px;
+}
+.pendaftaran:hover {
+    background-color: #e26f23;
+}
+
+.recruitment-detail {
+    width: 100%;
+}
+
+.details {
+    background-color: black;
 }
 
 .group {
@@ -210,6 +245,9 @@ button.gabung {
 }
 
 @media (min-width: 1400px) {
+    .recruitment-detail {
+        width: 50%;
+    }
     section {
         min-height: 0vh;
     }
@@ -223,6 +261,9 @@ button.gabung {
 }
 /* Untuk Handphone */
 @media (max-width: 768px) {
+    .recruitment-detail {
+        width: 100%;
+    }
     .banner {
         margin-top: -4em;
     }

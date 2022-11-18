@@ -17,9 +17,11 @@
         </p>
         <div class="row btn-banner-wrapper">
           <div class="col-md-6 mb-2">
-            <button class="btn btn-banner kenali" type="submit">Kenali Kami</button>
+            <a href="/struktural">
+              <button class="btn btn-banner kenali" type="submit">Kenali Kami</button>
+            </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-2">
             <a href="/recruitment">
               <button class="btn btn-dark btn-banner gabung" type="submit">Gabung</button>
               </a>
@@ -45,7 +47,7 @@
           <div class="card-body">
             <div class="row justify-content-center p-3">
               <div class="col-lg-9 mb-2">
-                <h5 class="card-title mb-3 fw-bold">Software Development</h5>
+                <h5 class="card-title mb-3 fw-bold">Programming</h5>
                 <p class="card-text">Pengembangan Sistem Perangkat Lunak Website dan Mobile</p>
               </div>
               <div class="col-lg-3 text-center">
@@ -162,8 +164,8 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/1.svg" alt="" />
-            <h6 class="card-title fw-bold">CX-Tika</h6>
-            <p class="card-text mb-4 fs-6 fw-light">Pembina</p>
+            <h6 class="card-title fw-bold">CX-Fizi</h6>
+            <p class="card-text mb-4 fs-6 fw-light">Kepala Dewan Pengawas Organisasi</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
                 <a href=""><img class="img-fluid" src="asset/img/in.svg" alt="" /></a>
@@ -179,8 +181,8 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/2.svg" alt="" />
-            <h6 class="card-title fw-bold">CX-Rizky</h6>
-            <p class="card-text mb-4 fs-6 fw-light">Pembina</p>
+            <h6 class="card-title fw-bold">CX-Alif</h6>
+            <p class="card-text mb-4 fs-6 fw-light">Sekretaris Dewan Pengawas Organisasi</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
                 <a href=""><img class="img-fluid" src="asset/img/in.svg" alt="" /></a>
@@ -196,8 +198,8 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/3.svg" alt="" />
-            <h6 class="card-title fw-bold">CX-Tia</h6>
-            <p class="card-text mb-4 fs-6 fw-light">Pembina</p>
+            <h6 class="card-title fw-bold">CX-Dhika</h6>
+            <p class="card-text mb-4 fs-6 fw-light">Staff Dewan Pengawas Organisasi</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
                 <a href=""><img class="img-fluid" src="asset/img/in.svg" alt="" /></a>
@@ -215,7 +217,7 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/ketua.svg" alt="" />
-            <h6 class="card-title fw-bold">Cx-Nanda</h6>
+            <h6 class="card-title fw-bold">Cx-Mufid</h6>
             <p class="card-text mb-4 fs-6 fw-light">Ketua Umum</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
@@ -232,7 +234,7 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/wakil.svg" alt="" />
-            <h6 class="card-title fw-bold">Cx-Arfan</h6>
+            <h6 class="card-title fw-bold">Cx-Akbar</h6>
             <p class="card-text mb-4 fs-6 fw-light">Wakil Ketua Umum</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
@@ -249,7 +251,7 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/sekretaris.svg" alt="" />
-            <h6 class="card-title fw-bold">Cx-Della</h6>
+            <h6 class="card-title fw-bold">Cx-Winda</h6>
             <p class="card-text mb-4 fs-6 fw-light">Sekretaris Umum</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
@@ -266,7 +268,7 @@
         <div class="card shadow p-2">
           <div class="card-body">
             <img class="profil mb-4 img-fluid" src="asset/img/struktural/bendahara.svg" alt="" />
-            <h6 class="card-title fw-bold">Cx-Tia</h6>
+            <h6 class="card-title fw-bold">Cx-Wulan</h6>
             <p class="card-text mb-4 fs-6 fw-light">Bendahara Umum</p>
             <div class="row text-center justify-content-center">
               <div class="col-3">
